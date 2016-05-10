@@ -20,7 +20,7 @@ class MY_Controller Extends CI_Controller{
 include APPPATH.'/core/Dynamic_view_engine.php';
 
 
-class Test_dynamic_view_engin Extends Dynamic_view_engine{
+class Test_dynamic_view_engine Extends Dynamic_view_engine{
 	
 	public function __construct(){
 		parent::__construct();

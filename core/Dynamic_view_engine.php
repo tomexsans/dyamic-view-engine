@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Dynamic_view_engine Extends Sessions{
+class Dynamic_view_engine Extends MY_Controller{
 
     protected $view_template = 'template/default'; //default template to be used
     protected $view_path = ''; //the property that will hold the url class and method

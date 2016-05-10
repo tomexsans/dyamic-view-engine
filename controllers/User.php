@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class User Extends Bootstrap{
+class User Extends Test_dynamic_view_engine{
 
 	public function __construct(){
 		parent::__construct();
@@ -20,7 +20,7 @@ class User Extends Bootstrap{
 		$this->SYS_DATA['estpoad5'] = 'Man 1: K';
 		$this->SYS_DATA['estpoad6'] = 'Man 2: K Bye';
 
-		$this->view_path = false;
-		$this->display_output = false;
+		//$this->view_path = false;
+		//$this->display_output = true;
 	}
 }
